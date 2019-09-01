@@ -52,6 +52,12 @@
 			<DCCReference Include="UFrmPrincipal.pas">
 				<Form>FrmPrincipal</Form>
 			</DCCReference>
+			<DCCReference Include="UCliente.pas"/>
+			<DCCReference Include="UFrmNovoCliente.pas">
+				<Form>FrmNovoCliente</Form>
+			</DCCReference>
+			<DCCReference Include="UCriaXML.pas"/>
+			<DCCReference Include="UEnviaEmail.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
@@ -105,6 +111,7 @@
 				<Platforms>
 					<Platform value="Win32">True</Platform>
 				</Platforms>
+				<ModelSupport>False</ModelSupport>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>
